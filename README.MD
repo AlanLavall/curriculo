@@ -1,0 +1,1 @@
+Este é um código HTML que cria um currículo básico. Ele inclui informações pessoais, endereço, formação acadêmica e experiência profissional. A imagem de perfil do candidato também é exibida no topo da página.

@@ -1,0 +1,114 @@
+/* Estilos para a barra de navegação */
+nav.menu {
+    background-color: #000000;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+/* Estilos para a lista de itens do menu */
+ul.menu {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para cada item da lista*/
+ul.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Estilos para cada link do menu*/
+ul.menu a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Estilos para o hover dos links do menu*/
+ul.menu a:hover {
+    color: #949494;
+}
+
+/* Estilos para todo o corpo da página*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para todos os links da página*/
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos para o hover de todos os links da página*/
+a:hover {
+    color: #949494;
+    text-decoration: underline;
+}
+
+/* Estilos para o rodapé da página*/
+footer {
+    background-color: #000000;
+    color: #fff;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para o parágrafo dentro do rodapé*/
+footer p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para imagens*/
+img {
+    border-radius: 50%;
+    width: 6%;
+    height: 8%;
+}
+
+/* Estilos para o titulo 2 com a classe "item"*/
+h2.item {
+    background-color: rgb(77, 77, 77);
+    color: #fff;
+
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    align-items: end;
+    margin-top: 6rem;
+  }
+  
+  .profile img {
+    display: block;
+    margin-right: 1rem; /* Adiciona um espaçamento à direita da imagem */
+  }
+  
+  .profile h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+  }
+  
